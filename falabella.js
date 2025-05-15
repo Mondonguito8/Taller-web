@@ -15,7 +15,7 @@ function abrirMenu() {
           <div class="section">
             <h3>Comprar por categoría</h3>
             <div class="categories">
-              <div class="category"><img src="ver-todo.jpg" alt=""><p>Ver todo</p></div>
+              <div class="category"><img src="recursos/ver-todo.jpg" alt=""><p>Ver todo</p></div>
               <div class="category"><img src="novedades.jpg" alt=""><p>Novedades</p></div>
               <div class="category"><img src="valorados.jpg" alt=""><p>Mejor valorados</p></div>
               <div class="category"><img src="tops.jpg" alt=""><p>Tops</p></div>
