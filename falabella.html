@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="falabella.css" type="text/css">
+  <script src="falabella.js"></script>
+  <title>Falabella</title>
+  
+</head>
+<body>
+
+  <div class="top-bar">
+    <div>
+      <span class="logo">falabella.com</span>
+      <span class="menu-button" onclick="abrirMenu()">☰ Menú</span>
+    </div>
+    <div class="search-box">
+      <input type="text" placeholder="Buscar en falabella.com">
+    </div>
+  </div>
+
+  <div id="menu-wrapper" class="menu-container">
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <h3>¡Hola!</h3>
+        <button class="close-button" onclick="cerrarMenu()">✖</button>
+      </div>
+      <ul>
+        <li onclick="mostrarContenido('oportunidades')"><strong>Oportunidades Únicas</strong></li>
+        <li onclick="mostrarContenido('tecnologia')">Tecnología</li>
+        <li onclick="mostrarContenido('electrohogar')">Electrohogar</li>
+        <li onclick="mostrarContenido('muebles')">Muebles y Organización</li>
+        <li onclick="mostrarContenido('dormitorio')">Dormitorio y Baño</li>
+        <li onclick="mostrarContenido('mujer')">Mujer</li>
+        <li onclick="mostrarContenido('hombre')">Hombre</li>
+        <li onclick="mostrarContenido('calzado')">Calzado</li>
+        <li onclick="mostrarContenido('accesorios')">Accesorios Moda</li>
+        <li onclick="mostrarContenido('belleza')">Belleza y salud</li>
+      </ul>
+    </div>
+
+    <div id="contenido-principal" class="content">
+      <p>Selecciona una categoría del menú para ver el contenido aquí.</p>
+    </div>
+  </div>
+</body>
+</html>
